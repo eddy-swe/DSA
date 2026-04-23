@@ -26,7 +26,6 @@ PS: This a variation of the 2-Sum problem
 *Note*: This approach is the best approach for a sorted array. But if array is not sorted, then we use the below approach.
 
 4. **Expected Approach**: 
-- 
 - Use a hash map to store the indices of the elements. For each element, check if the complement exists in the map and ensure that the indices are different. This approach has a time complexity of O(n) and space complexity of O(n).
 - Hashing provides a more efficient solution to the 2-Sum problem. Rather than checking every possible pair, we store each number in an unordered set during iterating over the array's elements. For each number, we calculate its complement (i.e., target - current number) and check if this complement exists in the set. If it does, we have successfully found the pair that sums to the target.
 - Step By Step Implementations:
